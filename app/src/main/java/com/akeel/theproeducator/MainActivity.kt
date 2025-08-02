@@ -32,11 +32,11 @@ class MainActivity : AppCompatActivity() {
             settings.safeBrowsingEnabled = true
         }
     }
-    override fun onBackPressed() {
+   /* override fun onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack()
         } else {
             super.onBackPressed()
         }
-    }
+    }*/
 }
